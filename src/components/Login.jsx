@@ -21,7 +21,7 @@ const Login = () => {
       }
     } catch (error) {
       console.error("Đã xảy ra lỗi khi gọi API:", error);
-      message.error("Có lỗi xảy ra trong quá trình đăng nhập!");
+      message.error("Email hoặc mật khẩu không đúng!");
     }
   };
 
